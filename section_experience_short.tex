@@ -1,0 +1,61 @@
+% YAAC Another Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/yaac-another-awesome-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%Section: Work Experience at the top
+\sectionTitle{Professional Experience}{\faSuitcase}
+%\renewcommand{\labelitemi}{$\bullet$}
+\begin{experiences}
+\emptySeparator
+\experience
+    {Till Now}     {Senior Software Engineer}{FreightExchange}{Remote}
+    {June 2022}    {
+                      \begin{itemize}
+                        \item Handle end to end process- Design, code and deployment of freight management system (\url{https://app.freightexchange.com.au/})
+                        \item Created the framework to make carrier integration easy and configurable.
+                        \item Design, Develop and scale Quote and Booking algorithm.
+                      \end{itemize}
+                    }
+                    {Java, Spring, Mysql, SpringBoot, Redis, SQS, AWS}
+\experience
+    {May 2022}     {Lead Software Engineer}{Sinch(ACL Mobile)}{Noida}
+    {February 2020}    {
+                      \begin{itemize}
+                        \item Design and Developed Workflow Engine(Customer Journey Orchestration Engine).
+                      \end{itemize}
+                    }
+                    {Java, NodeJs, Mysql, SpringBoot, Redis, SpringBatch}
+\emptySeparator
+
+\experience
+    {September 2019} {Senior Software Engineer}{DoubleYou Technology}{Gurugram}
+    {August 2015}    {
+                      \begin{itemize}
+                        \item Designed and Developed various micro-services - Recommendation, Notification service, Profile review portal
+                        \item Developed Recommendation algorithm which generates recommendations according to user’s gender, location, age, popularity using Mysql and Redis(caching)                      
+                        \item Developed Notification System using AWS SQS.
+                                                
+                        \item Developed user popularity score service.
+                        
+                        \item Developed Notification scheduling system using AWS SQS delayed message functionality.                         
+                      \end{itemize}
+                    }
+                    {Java 1.8, Git, Hibernate, Spring, AWS Kinesis, Redis, AWS SQS, DynamoDb, Tomcat 1.8, Maven}
+
+  \emptySeparator
+  \experience
+    {August 2015} {Software Engineer}{Infotrellis Inc.}{Chennai}
+    {July 2013}    {
+                      \begin{itemize}
+                        \item Helped develop data pipeline for Allsight. Data is collected from various social media sources and converted to Allsight 360 model. This module is developed using Kafka and Storm.              
+                        \item Worked on matching engine which finds a match between customer data and social media data. It uses full text search on collected data using elasticserarch and JanusGraph backed by Hbase to create identity graph. 
+                      \end{itemize}
+                    }
+                    {Hadoop, Pig , HBase, ElasticSearch, JanusGraph, Storm, Kafka}
+\end{experiences}

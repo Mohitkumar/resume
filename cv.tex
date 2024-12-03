@@ -1,0 +1,43 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{Mohit}{Kumar}
+\tagline{Software Developer}
+%\photo{2.5cm}{mohit}
+\socialinfo{
+	\linkedin{mohit-kumar-088bb647}\\
+	\github{Mohitkumar}\\
+	\smartphone{+91 9566118290}\\
+	\email{ch.mohitkumar89@gmail.com}\\
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\selectlanguage{english}\today}} % \selectlanguage{english}\today
+		{\textsc{Mohit Kumar - CV}}
+		{\thepage}
+
+	\input{section_headline}
+	\input{section_competences}				% Section compétence
+        \input{section_projets}
+	\input{section_experience_short}		% Section expérience
+	%\input{section_langues}					% Section langues
+	\input{section_scolarite}				% Section scholarité
+	%\input{section_interets}				% Section intérêts
+	%\input{section_references} 				% Section références
+
+
+\end{document}
